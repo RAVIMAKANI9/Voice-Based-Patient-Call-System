@@ -1,0 +1,89 @@
+
+
+.records-container {
+    padding: 20px;
+    overflow-y: auto; 
+    height: 100vh; 
+}
+
+.records-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button, .options-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.patient-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:15px;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.profile-icon {
+    margin-right: 20px;
+}
+
+.patient-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.patient-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.patient-id, .patient-dob {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.nurse-interaction {
+    margin-bottom: 20px;
+}
+
+.interaction-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.interaction-item span {
+    margin-right: 10px;
+}
+
+.arrow-icon {
+    margin-right: 5px;
+}
+
+.interaction-details {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.nurse-id {
+    margin-bottom: 20px;
+}
+
+.id-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.id-buttons button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}

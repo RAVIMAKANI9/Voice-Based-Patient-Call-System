@@ -1,0 +1,85 @@
+.patients-container {
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.search-bar {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.search-icon {
+    margin-right: 10px; 
+    color: #888; 
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.patients-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.patient-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(50% - 30px); 
+}
+
+.patient-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.patient-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.patient-condition, .patient-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.critical-dot {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.stable-dot {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.absent-circle-x, .pending-circle-x {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em; 
+    font-weight: bold;
+}

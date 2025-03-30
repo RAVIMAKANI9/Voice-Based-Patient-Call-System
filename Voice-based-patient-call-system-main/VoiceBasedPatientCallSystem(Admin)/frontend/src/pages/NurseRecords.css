@@ -1,0 +1,59 @@
+.records-container {
+    padding: 20px;
+}
+
+.records-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.nurse-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:15px;
+    margin-bottom: 30px;
+    width: fit-content;
+}
+
+.nurse-icon {
+    margin-right: 30px; 
+}
+.nurse-name {
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.nurse-details div {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.checkbox-options {
+    margin-right: 30px; 
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.schedule, .contact-info {
+    margin-bottom: 30px;
+}
+.schedule-item, .contact-item {
+    font-size: 1.2em;
+    margin-bottom: 8px; 
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.made-with {
+    text-align: center;
+    color: #888;
+    margin-top: 30px;
+}

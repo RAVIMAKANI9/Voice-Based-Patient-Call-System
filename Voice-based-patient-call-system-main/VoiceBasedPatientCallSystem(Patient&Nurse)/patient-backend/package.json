@@ -1,0 +1,32 @@
+{
+  "name": "patient-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-native-voice/voice": "^3.2.4",
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "expo-av": "^15.0.2",
+    "expo-file-system": "^18.0.12",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.2",
+    "multer": "^1.4.5-lts.2",
+    "natural": "^8.0.1",
+    "react-native-fs": "^2.20.0",
+    "react-native-tts": "^4.1.1",
+    "react-native-voice": "^0.3.0"
+  },
+  "description": ""
+}

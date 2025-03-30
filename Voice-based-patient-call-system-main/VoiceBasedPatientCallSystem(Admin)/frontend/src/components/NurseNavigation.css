@@ -1,0 +1,29 @@
+.nurse-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #f0f0f0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.nurse-nav a {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none;
+    font-size: 1em; 
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.nurse-nav a svg {
+    font-size: 1.5em; 
+    margin-right: 5px; 
+}
+
+.nurse-nav a.active {
+    background-color: #ddd;
+}

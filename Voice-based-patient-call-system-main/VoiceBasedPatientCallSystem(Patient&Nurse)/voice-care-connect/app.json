@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "VoiceCare Connect",
+    "slug": "voice-care-connect",
+    "scheme": "voice-care-connect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/logo.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.anonymous.voicecareconnect"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ]
+  }
+}

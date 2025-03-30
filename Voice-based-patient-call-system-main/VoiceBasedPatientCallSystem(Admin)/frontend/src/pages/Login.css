@@ -1,0 +1,37 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+  }
+  
+  .login-card {
+    width: 350px; 
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .login-title {
+    margin-bottom: 5px;
+  }
+  
+  .login-subtitle {
+    margin-bottom: 20px;
+  }
+  
+  .admin-icon {
+    font-size: 4em; 
+    margin-bottom: 20px;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+  }
+  
+  .forgot-password {
+    margin-top: 15px;
+    cursor: pointer;
+    color: #05294a; 
+    text-align: center;
+  }
